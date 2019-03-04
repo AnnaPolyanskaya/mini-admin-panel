@@ -1,0 +1,19 @@
+.App{
+  display: flex;
+  flex-direction: row;    
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.change-btn{
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.2);
+  border: none; 
+}
+
+.change-btn:hover{
+  background:#431d65 ;
+  color: #fff;
+}

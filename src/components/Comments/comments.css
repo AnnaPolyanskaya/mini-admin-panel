@@ -1,0 +1,75 @@
+.comments-cntnr{
+    display: flex;
+    flex-direction: column;
+    background: #431d65;
+    color: #fff;
+    padding: 20px;
+    max-width: 320px;
+    border-radius: 5px;
+}
+.comment-body{
+    background: rgba(255, 255, 255, 0.21);
+    padding: 20px;
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
+    position: relative;
+}
+.comment-name{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.comment-form{
+    display: flex;
+    flex-direction: column;
+    background: #431d65;
+    color: #fff;
+    padding: 20px;
+    max-width: 320px;
+    border-radius: 5px; 
+}
+
+.comment-form input, .comment-form  textarea{
+    border: none;
+    padding: 15px 20px;
+    border-radius: 25px;
+    background: rgba(255,255,255,.1);
+    color: #fff;    
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+}
+
+.comment-form button{
+    border: none;
+    padding: 15px 20px;
+    border-radius: 25px;
+    background: rgba(255,255,255,.1);
+    color: #fff;  
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.comment-form button:hover {
+    background:#fff;
+    color: #431d65;  
+    
+}
+
+.reject-btn{
+    border-radius: 25px;
+    border: none;
+    background: rgba(243, 6, 6, 0.397);
+    margin: 5px auto;
+    color: #fff; 
+    padding: 5px 10px;
+}
+
+.accept-btn{
+    border-radius: 25px;
+    border: none;
+    background: rgba(103, 228, 20, 0.521);
+    margin: 5px auto;
+    color: #fff; 
+    padding: 5px 10px;
+}

@@ -1,0 +1,30 @@
+body{
+    background: rgba(136, 28, 171, 0.88);
+    font-family: 'Roboto';
+}
+.item-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    background: linear-gradient(to left, #42275a, #734b6d);
+    color: #fff;
+}
+
+.item-header img{
+    max-width: 150px;
+    display: block;
+    margin: auto;
+}
+
+.item-header h5{
+    text-align: center
+}
+
+.item-descr ul{
+    list-style: none;
+    text-align: left;
+}
